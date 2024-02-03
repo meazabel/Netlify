@@ -19,8 +19,7 @@ The project is organized into the following directories and files:
 
 ## Installation and Usage:
 To run the project locally, ensure that you have Node.js and npm (Node Package Manager) installed on your system.
-Clone the project repository by running:
-git clone https://x-token-auth:ATCTT3xFfGN0foea1sDAbnmmEi3Z8JVFCi_Sq2H95tTXtnSsh-dZFQKcVgWy6IEo3Sp_C-tL2JaWt8BYa-ZnVc_HQT2pbmUoJMLksswzGfaRGzyGzXkkYQBqsjAGqlsOptiLPTHPCtEgZSfixaEEAUG1QybqxpQFzPZ0GZAnOAZJQpQHndWOU_Y=6A4C7B3E@bitbucket.org/mea8/mea.git
+Clone the project repository.
 
 Open a terminal or command prompt, navigate to the project directory, and run the following command to install the project dependencies:
 npm install
@@ -28,7 +27,7 @@ npm install
 After installation, you can start the development server using the following command:
 npm run buildn
 
-Access the project in your web browser by navigating to https://meazabel.netlify.app
+Access the project in your web browser by navigating to https://mea-nodejs.netlify.app
 
 ## Test data
 you can use  ./users.endpoints.http which has predefined statements for GET POST PUT and DELETE
@@ -40,5 +39,3 @@ Maryam Al-Yasiri
 
 mea_zabel@yahoo.com
 &nbsp;
-
-0798893834
