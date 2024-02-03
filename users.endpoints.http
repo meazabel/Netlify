@@ -1,0 +1,39 @@
+### fetch all users
+GET https://meazabel.netlify.app/.netlify/functions/get-users
+Content-Type: application/json
+
+### fetch user
+GET https://meazabel.netlify.app/.netlify/functions/get-user/johdxx001
+Content-Type: application/json
+
+
+### create new user
+POST https://meazabel.netlify.app/.netlify/functions/add-user
+Content-Type: application/json
+
+{
+  "firstName": "john",
+  "lastName": "doe",
+  "email": "john.doe@gmail.com",
+  "role": "guest"
+}
+
+### edit user(must include id and username generated from POST)
+PUT https://meazabel.netlify.app/.netlify/functions/edit-user
+Content-Type: application/json
+
+{
+  "firstName": "Jonathan",
+  "lastName": "Donovan",
+  "email": "j.Donovan@gmail.com",
+  "role": "member",
+  "id": "28e1c999-59c2-4199-901f-1332044be085" ,
+  "username": "johdxx001"
+}
+
+### delete user
+DELETE https://meazabel.netlify.app/.netlify/functions/delete-user/johdxx001
+Content-Type: application/json
+
+
+

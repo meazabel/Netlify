@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mea's Node.js App</title>
+    <style>
+        body {
+            background-color: #e5c4f2;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+<div id="container">
+    <h3>Get all users</h3>
+    <a href="https://meazabel.netlify.app/.netlify/functions/get-users">/get-users</a>
+    <h3>Get user by username</h3>
+    <a href="https://meazabel.netlify.app/.netlify/functions/get-user">/get-user/{username}</a>
+    <h3>Add user</h3>
+    <a href="https://meazabel.netlify.app/.netlify/functions/add-user">/add-user</a>
+    <h3>Delete user by username</h3>
+    <a href="https://meazabel.netlify.app/.netlify/functions/delete-user">/delete-user/{username}</a>
+    <h3>Edit user by entering all fields (id and username can't be changed)</h3>
+    <a href="https://meazabel.netlify.app/.netlify/functions/edit-user">/edit-user</a>
+</div>
+</body>
+
+</html>
